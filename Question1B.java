@@ -67,7 +67,7 @@ public class Question1B {
         int maxsofar = 0;
         int maxtohere = 0;
 
-        for(int i = 0; i < n; i++){
+        for(int i = 1; i < n; i++){
             maxtohere = Math.max(maxtohere + X[i], 0);
             maxsofar = Math.max(maxsofar, maxtohere);
         }
