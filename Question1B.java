@@ -93,9 +93,10 @@ public class Question1B {
             }
         }
         System.out.println();
-        System.out.println( countM + " " + mcsOn(X) + countP + " " + mcsOn(X));
-        System.out.println( countM + " "  + mcsOn2A(X) + countP + " "  + mcsOn2A(X));
-        System.out.println( countM + " "  + mcsOn2B(X) + countP + " " + mcsOn2B(X));
-        System.out.println( countM + " " + mcsOn3(X) + countP + " " + mcsOn3(X));
+        System.out.println( countM + " " + countM + " " + countP + " " + countP);
+        System.out.println( mcsOn3(X) + " "  + mcsOn2A(X) + " "  + mcsOn2B(X) + " "  + mcsOn(X));
+        System.out.println( mcsOn3(X) + " "  + mcsOn2A(X) + " "  + mcsOn2B(X) + " "  + mcsOn(X));
+        System.out.println( mcsOn3(X) + " "  + mcsOn2A(X) + " "  + mcsOn2B(X) + " "  + mcsOn(X));
+        System.out.println( mcsOn3(X) + " "  + mcsOn2A(X) + " "  + mcsOn2B(X) + " "  + mcsOn(X));
     }
 }
